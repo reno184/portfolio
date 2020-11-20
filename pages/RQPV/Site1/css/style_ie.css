@@ -1,0 +1,12 @@
+body{text-align:center;background:#585858;text-align:center}
+#intro{width:400px;height:350px;margin:0px auto;background:url(images/ie/intro.jpg) left top no-repeat;margin-top:150px;position:relative}
+#close_intro{position:absolute;top:-15px;right:-15px;width:30px;height:32px; background:url(images/ie/close_intro.jpg) left top no-repeat;cursor:pointer}
+#top .top_shadow{display:none}
+#top .top_text .text{width:900px;height:330px;position:relative;background:url(images/ie/text.jpg) left 20px no-repeat;} 
+#top .top_text  .button{position:absolute;bottom:0px;right:30px;width:156px;height:60px; background:url(images/ie/font_1.jpg) left top no-repeat;cursor:pointer}
+#top .top_text  .titre{position:absolute;bottom:0px;left:30px;width:600px;height:70px; background:url(images/ie/titre.jpg) left top no-repeat;}
+#content .t_x-- #prev{width:50px;height:61px; background:url(images/ie/gauche.jpg) left top no-repeat;cursor:pointer;margin-top:220px}
+#content .t_--x  #suiv{width:50px;height:61px; background:url(images/ie/droite.jpg) left top no-repeat;cursor:pointer;margin-top:220px}
+#content .t_-x- #slider .current{float:left;background:url(images/ie/content.jpg) 0px -17px no-repeat;height:500px;width:700px;}
+#bottom .bot_shadow{display:none}
+#bottom   .close{position:absolute;top:2px;right:70px;width:30px;height:32px; background:url(images/ie/close.jpg) left top no-repeat;cursor:pointer}

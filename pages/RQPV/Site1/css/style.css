@@ -1,0 +1,41 @@
+/*gris foncé :585858*/
+* {margin:0;padding:0;color:#fff} 
+body{text-align:center;background:#585858 url(images/bkg.jpg) left top no-repeat;text-align:center}
+img {border:none} 
+a {color:#f60;text-decoration:none;} 
+a:hover{color:#000} 
+ul{line-height:22px;}
+li{ list-style:square}
+
+
+#top{width:100%;position:absolute;top:0px;z-index:2;left:0px}
+#top .top_text{width:100%;height:70px;position:relative;background:#333}
+#top .top_shadow{width:100%;height:20px;position:relative;background:url(images/top_bkg.png) left top repeat-x;}
+#top .top_text .text{width:900px;height:330px;position:relative;background:url(images/text.png) left 20px no-repeat;} 
+#top .top_text  .button{position:absolute;bottom:0px;right:30px;width:156px;height:60px; background:url(images/font_1.png) left top no-repeat;cursor:pointer}
+#top .top_text  .titre{position:absolute;bottom:0px;left:30px;width:600px;height:70px; background:url(images/titre.png) left top no-repeat;}
+
+#intro{width:400px;height:350px;margin:0px auto;background:url(images/intro.png) left top no-repeat;margin-top:150px;position:relative}
+#close_intro{position:absolute;top:-15px;right:-15px;width:30px;height:32px; background:url(images/close.png) left top no-repeat;cursor:pointer}
+
+#content{margin:0px auto;width:800px;height:500px;padding-top:80px;}
+#content .t_x--{float:left;height:500px;width:50px;}
+#content .t_x-- #prev{width:50px;height:61px; background:url(images/gauche.png) left top no-repeat;cursor:pointer;margin-top:220px}
+#content .t_--x{float:left;height:500px;width:50px;}
+#content .t_--x  #suiv{width:50px;height:61px; background:url(images/droite.png) left top no-repeat;cursor:pointer;margin-top:220px}
+#content .t_-x-{float:left;overflow:hidden;width:700px;height:500px;position:relative;}
+#content .t_-x- #slider{width:5000px;height:500px;position:absolute;left:0;top:0px;}
+#content .t_-x- #slider .current{float:left;background:url(images/content.png) 0px -17px no-repeat;height:500px;width:700px;}
+
+
+.image{height:500px;width:700px;position:relative}
+.pano{position:absolute;top:10px;left:42px;width:100px;height:20px;background:#585858;cursor:pointer}
+#imageHidden{display:none}
+
+
+#bottom{width:100%;position:absolute;bottom:0px;z-index:2;left:0px} 
+#bottom .bot_shadow{width:100%;height:20px;position:relative;background:url(images/bot_bkg.png) left top repeat-x;}
+#bottom .bot_text{width:100%;height:120px;position:relative;background:#333;}
+#bottom  .bot_text .vignette{float:left;margin:8px;position:relative}
+#bottom img{border:solid 1px #fff}
+#bottom   .close{position:absolute;top:2px;right:70px;width:30px;height:32px; background:url(images/close.png) left top no-repeat;cursor:pointer}
